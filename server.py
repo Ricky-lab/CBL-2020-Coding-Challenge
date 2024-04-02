@@ -35,7 +35,7 @@ scoreboard = [
     },
 ]
 
-
+# 
 @app.route('/')
 def show_scoreboard():
     return render_template('scoreboard.html', scoreboard = scoreboard) 
